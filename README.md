@@ -43,8 +43,9 @@ df.isnull().sum()
 ```
 
 ## Output:
-<img width="773" height="342" alt="image" src="https://github.com/user-attachments/assets/68a8f52d-3efb-48a7-b5c0-d954b7832fab" />
-<img width="1597" height="637" alt="image" src="https://github.com/user-attachments/assets/5afc255c-765a-435f-ba90-b2f967591ca5" />
+<img width="834" height="456" alt="image" src="https://github.com/user-attachments/assets/ddfdbb84-4928-4756-92bd-e594cbea01fe" />
+
+<img width="662" height="612" alt="image" src="https://github.com/user-attachments/assets/7c15134f-9574-40ba-a9b6-d1fc3b68ce56" />
 
 
 ## 2)Clean the data: parse datetime, convert pm2.5 to numeric, drop invalid rows.
@@ -62,7 +63,7 @@ df = df.dropna(subset=['datetime', 'value'])
 ```
 
 ## Output:
-<img width="723" height="288" alt="image" src="https://github.com/user-attachments/assets/72773f45-3b57-404f-96a0-fd93e567698d" />
+<img width="711" height="215" alt="image" src="https://github.com/user-attachments/assets/fe1cf5af-2160-4ab4-b238-6bcd8396fb37" />
 
 
 ## 3)Add date, month, hour columns.
